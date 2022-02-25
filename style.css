@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -21,9 +22,11 @@ img{
     clear: both;
     display: block;
 }
-.container-width{
+.container-width {
     max-width: 1200px;
     margin: auto;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 p{
     Font-family: Open Sans, sans-serif;
@@ -217,34 +220,3 @@ p{
     text-align: center;
     font-size: 15px;
 }
-
-
-/***********************************
-!    RESPONSIVE  AREA START HERE   !
-***********************************/
-/***********************************
-!    HEADER AREA RESPONSIVE HERE   !
-***********************************/
-@media only screen and (min-width: 775px) and (max-width: 1148px){
-    .header-area {
-        padding: 10px 75px;
-    }
-    .banner-area{
-        background-size: cover;
-    }
-    .services-area {
-        padding: 100px 75px;
-    }
-    .services-items {
-        margin-top: 70px;
-    }
-    .contact-area {
-        padding: 60px 75px;
-    }
-
-}
-
-
-/***********************************
-! HEADER AREA RESPONSIVE END HERE  !
-***********************************/
