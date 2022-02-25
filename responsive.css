@@ -1,19 +1,140 @@
-@media (max-width: 1140px){
-    .fiexd-width {
+/* header area start here */
+
+@media (max-width: 795px){
+    .logo-area-left a {
+        line-height: 31px;
+        font-size: 23px;
+    }
+    .menu-area-right ul li a {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 660px){
+    .logo-area-left {
+        float: none;
         width: 100%;
-        max-width: 100%;
-        padding: 0 30px;
+        text-align: center;
+        margin-bottom: 13px;
+    }
+    .logo-area-left a {
+        font-size: 30px;
+    }
+    .menu-area-right ul {
+        text-align: center;
+    }
+    .menu-area-right {
+        float: none;
+        width: 100%;
     }
 }
-@media (max-width: 966px){
-    .heider-right ul {
-        text-align: left;
+@media (max-width: 300px){
+    .logo-area-left a {
+        font-size: 25px;
     }
-    .heider-right {
-        width: 65%;
-    }
-    .heider-left {
-        width: 35%;
+    .menu-area-right ul li a {
+        padding: 6px 8px;
+        font-size: 12px;
     }
 }
-@media-q
+/* header area start here */
+/* banner area start here */
+@media(max-width: 810px){
+    .banner-area {
+        padding: 134px 0;
+    }
+    .banner-content h1 {
+        font-size: 32px;
+    }
+    .banner-content p {
+        font-size: 12px;
+        margin-bottom: 24px;
+    }
+}
+@media(max-width: 350px){
+    .banner-content button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .banner-content h1 {
+        font-size: 24px;
+    }
+}
+/* banner area end here */
+/* services area start here */
+@media(max-width: 992px){
+    .services-items {
+        width: 48%;
+        margin-top: 70px;
+    }
+    .services-items p {
+        width: 284px;
+    }
+}
+@media(max-width: 880px){
+    .services-area {
+        padding: 41px 0;
+    }
+    .services-area h1 {
+        font-size: 25px;
+    }
+    .services-area p {
+        font-size: 13px;
+    }
+}
+@media(max-width: 573px){
+    .services-items {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+@media(max-width: 300px){
+    .services-items h3 {
+        font-size: 15px;
+    }
+}
+
+/* services area end here */
+/* About area start here */
+@media(max-width: 776px){
+    .about-rght {
+        float: none;
+        width: 100%;
+        margin-top: 26px;
+    }
+    .about-left {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .about-area p {
+        margin-bottom: 44px;
+        font-size: 13px;
+    }
+    .about-area {
+        margin: 40px 0;
+    }
+   
+}
+/*contat us area start here */
+@media(max-width: 1100px){
+    .detels {
+        width: 100%;
+    }
+}
+@media(max-width: 992px){
+    p.contact-text {
+        font-size: 15px;
+    }
+}
+@media(max-width: 660px){
+    p.contact-text {
+        font-size: 13px;
+    }
+    .contact-item {
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+/*contat us area end here */
